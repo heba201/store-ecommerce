@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // Schema::defaultStringLenght(lenght:191);          for error of specified key was too long
     }
 
     /**
